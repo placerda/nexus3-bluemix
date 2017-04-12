@@ -1,0 +1,9 @@
+{
+  "name" : "meumodulo",
+  "version" : "0.0.1",
+  "description" : "Hello World Library",
+  "main" : "index.js",
+  "publishConfig": {
+    "registry": "http://<tocar_por_seu_endereco_ip>:8081/repository/npm-private/"
+  }
+}
