@@ -1,6 +1,6 @@
-# Criando repositórios NPM privados no Bluemix
+# Criando repositórios npm privados no Bluemix
 
-Se você quer compartilhar módulos Node.js com outras aplicações na sua organização, porém não quer publicar no registro npm porque ele é público, aqui você verá baseado em exemplos como criar um repositório npm privado no Bluemix utilizando um container com o Nexus.
+Se você quer compartilhar módulos Node.js com outras aplicações na sua organização, porém não quer publicar no registro npmjs.com porque ele é público, aqui você verá baseado em exemplos como criar um repositório npm privado no Bluemix utilizando um container com o Nexus.
 
 ## Pre-requisitos
 
@@ -14,7 +14,7 @@ Inicialmente abra um terminal na sua estação de trabalho e faça o login no Bl
 $ bx login
 ```
 
-Durante o login será solicitado o API endpoint, a conta, organização e espaço em que você quer logar. Escolha os valores correspondentes a área em que você quer criar o container, para o API endpoint você pode selecionar https://api.ng.bluemix.net (Dallas).
+Durante o login será solicitado o API endpoint, a conta, organização e espaço em que você quer logar. Escolha os valores correspondentes a área em que você quer criar o container, para o API endpoint você pode selecionar https://api.ng.bluemix.net que é o endpoint da região do Bluemix em Dallas.
 
 Em seguida copie a imagem do Nexus 3 no Docker Hub para seu registro privado no Bluemix.
 
